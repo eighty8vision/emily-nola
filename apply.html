@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Emily Nola | Questions</title>
+<title>Emily Nola | Apply</title>
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2212%22%20fill%3D%22%232B3033%22/%3E%3Ccircle%20cx%3D%2225%22%20cy%3D%2232%22%20r%3D%2215%22%20fill%3D%22%23E2DFD7%22/%3E%3Ccircle%20cx%3D%2239%22%20cy%3D%2232%22%20r%3D%2215%22%20fill%3D%22%23B8795C%22/%3E%3Cpath%20d%3D%22M32%2018.7a15%2015%200%200%201%200%2026.6a15%2015%200%200%201%200-26.6z%22%20fill%3D%22%23F1F0EC%22/%3E%3Ctext%20x%3D%2232%22%20y%3D%2230.6%22%20text-anchor%3D%22middle%22%20font-family%3D%22Georgia%2C%20%27Times%20New%20Roman%27%2C%20serif%22%20font-size%3D%2210%22%20font-style%3D%22italic%22%20fill%3D%22%2316191B%22%3Ee%3C/text%3E%3Ctext%20x%3D%2232%22%20y%3D%2239.6%22%20text-anchor%3D%22middle%22%20font-family%3D%22Georgia%2C%20%27Times%20New%20Roman%27%2C%20serif%22%20font-size%3D%2210%22%20font-style%3D%22italic%22%20fill%3D%22%2316191B%22%3En%3C/text%3E%3C/svg%3E">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<meta name="description" content="Frequently asked questions about mediation with Emily Nola.">
+<meta name="description" content="Apply to work with Emily Nola.">
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300;1,6..72,400&family=Hanken+Grotesk:wght@400;500;600&display=swap');
 
@@ -178,17 +178,13 @@ section { padding: 110px 0; }
 .faq summary::after { content: "+"; position: absolute; right: 6px; top: 22px; font-family: var(--sans); font-size: 26px; color: var(--clay-deep); transition: transform .2s; }
 .faq details[open] summary::after { transform: rotate(45deg); }
 .faq .a { padding: 0 0 28px; }
-.faq .a p { margin: 0 0 18px; }
-.faq .a p:last-child { margin-bottom: 0; }
-.faq .a h4 { font-family: var(--sans); font-size: 17px; font-weight: 600; margin: 32px 0 12px; }
-.faq .a h4:first-child { margin-top: 0; }
 .faq .a p { margin: 0 0 14px; }
 .faq-group { margin-top: 70px; }
 .faq-group:first-child { margin-top: 0; }
 .faq-group > h2 { font-size: 30px; margin-bottom: 6px; }
 
 /* Form */
-.form { max-width: 760px; }
+.form { max-width: 760px; margin: 0 auto; }
 .field { margin-bottom: 30px; }
 .field label, .field legend { display: block; font-weight: 500; font-size: 16px; margin-bottom: 6px; padding: 0; }
 .field .hint { font-size: 14px; color: #4A4E52; margin: 0 0 10px; }
@@ -237,12 +233,27 @@ footer a:hover { color: var(--on-fig); }
 .quote .cite { display: block; font-family: var(--sans); font-size: 13px; line-height: 1.6; font-style: normal; margin-top: 26px; opacity: .7; }
 .quote .rule { display: block; width: 40px; height: 1px; background: var(--clay); margin: 30px auto 0; }
 
+.notice { background: none; border-left: 2px solid var(--clay); padding: 2px 0 2px 16px; margin: 0 0 30px; }
+.notice p { margin: 0; font-size: 15px; max-width: none; }
+.form-note { font-size: 14px; color: #4A4E52; margin-top: 18px; max-width: none; white-space: nowrap; }
+@media (max-width: 860px) { .form-note { white-space: normal; } }
+
 .mailto { display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; border: 1px solid rgba(239,231,220,.35); border-radius: 50%; color: var(--on-fig-soft); margin-top: 22px; transition: all .2s; }
 .mailto svg { width: 19px; height: 19px; }
 .mailto:hover { color: var(--darkfig); background: var(--clay); border-color: var(--clay); }
 
 @media (max-width: 900px) { .quote .line { white-space: normal !important; font-size: 20px !important; } }
 
+.ack { border-top: 1px solid rgba(30,32,34,.2); padding-top: 26px; margin-top: 40px; }
+.ackbox { display: flex; gap: 14px; align-items: flex-start; cursor: pointer; font-weight: 400; }
+.ackbox input { margin-top: 5px; accent-color: var(--fig); flex: none; }
+.ackbox span { font-size: 13.5px; line-height: 1.6; color: #4A4E52; }
+
+
+.dark-quote { background: #2B3033; padding: 78px 0 70px; }
+.dark-quote .quote .line { color: #F1F0EC; }
+.dark-quote .quote .cite { color: #CFD3D6; }
+.dark-quote .quote .rule { background: #B8795C; }
 @media (max-width: 700px) { .mark { display: block; line-height: 1.25; } .mark span { display: block; margin-left: 0; } }
 </style>
 </head>
@@ -251,38 +262,124 @@ footer a:hover { color: var(--on-fig); }
   <div class="wrap">
     <a class="mark" href="index.html">Emily Nola<span>Conflict + Communication Advisor</span></a>
     <button class="toggle" aria-expanded="false" aria-controls="links">Menu</button>
-    <nav class="links" id="links"><a href="index.html">Home</a><a href="situation.html">Your situation</a><a href="approach.html">Approach</a><a href="about.html">About</a><a href="faq.html" aria-current="page">FAQ</a><a class="btn" href="apply.html">Apply</a></nav>
+    <nav class="links" id="links"><a href="index.html">Home</a><a href="situation.html">Your situation</a><a href="approach.html">Approach</a><a href="about.html">About</a><a href="faq.html">FAQ</a><a class="btn" href="apply.html">Apply</a></nav>
   </div>
 </header>
 <main>
-<section class="page-head">
+<section class="page-head dark-quote">
   <div class="wrap">
-    <h1>Questions</h1>
+    <blockquote class="quote"><p class="line">&ldquo;The best time to plant a tree was twenty years ago. The second best time is now.&rdquo;<span class="rule"></span></p><cite class="cite">Unknown</cite></blockquote>
+  </div>
+</section>
+<section class="band-sand">
+  <div class="wrap">
+    <form class="form" action="https://usebasin.com/f/2c0496d3353f" method="POST">
+      <input type="hidden" name="source_site" value="mediation">
+
+      <fieldset class="field">
+        <legend>Which situation is closest to yours?</legend>
+        <div class="choices">
+          <label class="choice"><input type="radio" name="situation" value="personal" required> A personal relationship</label>
+          <label class="choice"><input type="radio" name="situation" value="organization" required> Challenges in the workplace</label>
+          <label class="choice"><input type="radio" name="situation" value="negotiation" required> A stalled negotiation</label>
+        </div>
+      </fieldset>
+
+      <div class="two">
+        <div class="field"><label for="full_name">Your name</label><input type="text" id="full_name" name="full_name" required autocomplete="name"></div>
+        <div class="field"><label for="pronouns">Your pronouns</label><input type="text" id="pronouns" name="pronouns" required></div>
+      </div>
+      <div class="two">
+        <div class="field"><label for="email">Email</label><input type="email" id="email" name="email" required autocomplete="email"></div>
+        <div class="field"><label for="phone">Phone</label><input type="tel" id="phone" name="phone" required autocomplete="tel"></div>
+      </div>
+      <div class="two">
+        <div class="field"><label for="city">City</label><input type="text" id="city" name="city" required></div>
+        <div class="field"><label for="state_region">State or region</label><input type="text" id="state_region" name="state_region" required></div>
+      </div>
+      <div class="two">
+        <div class="field"><label for="country">Country</label><input type="text" id="country" name="country" required></div>
+        <div class="field"><label for="role">Your role</label><input type="text" id="role" name="role" required placeholder="HR director, spouse, sibling"></div>
+      </div>
+      <div class="two">
+        <div class="field"><label for="company">Company name</label><p class="hint">Optional.</p><input type="text" id="company" name="company"></div>
+        <div class="field"></div>
+      </div>
+
+      <div class="field">
+        <label for="who_involved">Who is involved?</label>
+        <p class="hint">Their relationship to you and to each other. First names or roles are plenty.</p>
+        <textarea id="who_involved" name="who_involved" required></textarea>
+      </div>
+
+      <div class="field">
+        <label for="what_happening">What is happening?</label>
+        <p class="hint">Describe the situation as you see it, and where things keep getting stuck.</p>
+        <textarea id="what_happening" name="what_happening" required></textarea>
+      </div>
+
+      <div class="field">
+        <label for="already_tried">What has been tried so far?</label>
+        <textarea id="already_tried" name="already_tried" required></textarea>
+      </div>
+
+      <div class="field">
+        <label for="desired_outcome">What would moving forward look like for you?</label>
+        <textarea id="desired_outcome" name="desired_outcome" required></textarea>
+      </div>
+
+      <div class="two">
+        <div class="field">
+          <label for="others_aware">Do the others involved know you're reaching out?</label>
+          <select id="others_aware" name="others_aware" required>
+            <option value="">Choose one</option>
+            <option>Yes, and they're open to it</option>
+            <option>Yes, and they're unsure</option>
+            <option>Not yet</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="counsel_involved">Are attorneys or advisors involved?</label>
+          <select id="counsel_involved" name="counsel_involved" required>
+            <option value="">Choose one</option>
+            <option>Yes</option>
+            <option>No</option>
+            <option>Not yet, possibly soon</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="notice"><p>Not sure who needs to apply? See the <a href="faq.html#who-applies">FAQ</a> for more information about how the application process works for personal relationships, workplace dynamics, and stalled negotiations.</p></div>
+
+      <div class="field">
+        <label for="time_sensitivity">Is there a deadline or timing pressure?</label>
+        <input type="text" id="time_sensitivity" name="time_sensitivity" required placeholder="A court date, a closing, a restructure">
+      </div>
+
+      <div class="field">
+        <label for="source">How did you find me?</label>
+        <input type="text" id="source" name="source" required>
+      </div>
+
+      <div class="field">
+        <label for="anything_else">Anything else I should know?</label>
+        <p class="hint">Optional.</p>
+        <textarea id="anything_else" name="anything_else"></textarea>
+      </div>
+
+      <div class="field ack">
+        <label class="ackbox">
+          <input type="checkbox" name="acknowledgement" value="yes" required>
+          <span>Submitting this application creates no professional relationship and no obligation on either side. I understand that I should avoid including privileged, confidential, or highly sensitive information at this stage. Emily Nola treats what I share as private and uses it only to determine fit, fees, and terms.<br><br>Any legal protections that apply to mediation take effect only under the signed agreement that precedes any work. I understand that information submitted here is transmitted and stored by a third-party form service.</span>
+        </label>
+      </div>
+
+      <button class="btn" type="submit">Submit application</button>
+    </form>
   </div>
 </section>
 
-<section style="padding-top:0;">
-  <div class="wrap">
-    <div class="faq">
-<details><summary>What is a conflict + communication advisor?</summary><div class="a"><p>It is the plainest description of what I do.</p><p>A conflict + communication advisor helps you understand what is happening in a difficult situation, particularly when communication, relationships, or competing perspectives are making it challenging to move forward.</p><p>Understanding the people involved, the dynamics between them, and the process or structure they are operating within provides context for where to start and how to approach the issues.</p><p>In order to move situations forward as effectively and efficiently as possible, I identify the gap between where things are now and where the people involved want to end up, as well as the source and contributors to the friction.</p><p>Perspectives that may not be getting through are translated, with guidance, strategy, and recommendations for how to reach your desired outcome.</p><p>I stay objective while considering the interests and goals of everyone involved.</p><p>My goal is to leave every client feeling clearer, lighter, and more empowered than they were before.</p></div></details>
-<details id="who-applies"><summary>Who needs to apply?</summary><div class="a"><h4>Relationships</h4><p>Anyone involved can initiate the process by completing an application. Before I determine fit, fees, and terms, I require anyone else I will be working with to complete their own application.</p><p>If you are an individual navigating a difficult situation and the other parties are uninterested or unable to participate, it is possible for us to work together. Please apply.</p><h4>Workplace</h4><p>The organization completes the application and can do so without notifying employees. I use the information provided by the organization's representative to determine fit, fees, and terms.</p><p>If you are an employee looking for guidance outside of your organization, it is possible for us to work together. Please apply.</p><h4>Negotiations</h4><p>Anyone involved can initiate the process by completing an application. Before I determine fit, fees, and terms, I require anyone else I will be working with to complete their own application.</p><p>If you are an individual navigating a difficult situation and the other parties are uninterested or unable to participate, it is possible for us to work together. Please apply.</p><p>When an attorney, financial advisor, or broker is already engaged, they own legal and financial terms. My focus stays on the dynamics.</p></div></details>
-<details><summary>Are you an attorney?</summary><div class="a"><p>No, I do not give legal advice or negotiate directly on your behalf. Legal and financial terms stay with your attorneys and advisors, and nothing I do replaces independent legal review before you sign anything.</p><p>If there is a relevant legal matter, I will read and understand the terms as context.</p></div></details>
-<details><summary>How is this different from therapy?</summary><div class="a"><p>Therapy works through a clinical lens, often focused on mental health, and is usually structured over a period of time with ongoing sessions.</p><p>I do not use a clinical lens to help individuals or groups move through conflict, communication breakdowns, or stuck dynamics.</p><p>My role is to come into a situation, help get things moving again, and then leave. I do not work with clients on an ongoing basis.</p></div></details>
-<details><summary>Does everyone involved need to agree to participate?</summary><div class="a"><p>Everyone who participates signs the agreement. Participation is voluntary, and willingness from each person I work with is required.</p><p>However, I will work with one individual, or one half of a dynamic, to provide guidance, strategy, and perspective.</p></div></details>
-<details><summary>Can just one person work with you?</summary><div class="a"><p>Yes. I maintain objectivity to provide guidance and perspective to an individual based on their reporting of a situation. The goal is still moving forward in a way that is best for everyone involved.</p></div></details>
-<details><summary>Do you guarantee a resolution?</summary><div class="a"><p>No one honestly can. I guarantee a skilled, objective process and my full attention.</p></div></details>
-<details><summary>Where are you located?</summary><div class="a"><p>I'm based in Minneapolis, MN. I offer in-person, virtual, and hybrid sessions, with virtual often being the preferred option.</p><p>For personal relationships, a neutral third space is used when meeting in person.</p><p>For organizational work, in-person sessions are preferably held at your existing workplace or office.</p></div></details>
-<details><summary>What does it cost?</summary><div class="a"><p>Fees depend on the situation, the number of people involved, and the scope of the work. After reviewing your application, I share fees and terms in writing.</p><p>However, I think about cost beyond dollars. Time, money, energy, and health are all resources, and I encourage my clients to consider the cost of each. I also consider what may be lost or missed by not moving forward, and what those same resources could be put toward instead.</p></div></details>
-<details id="privacy"><summary>Is what I share kept private?</summary><div class="a"><p>Yes. The privacy and confidentiality terms are set out in the agreement everyone signs before we start, so each person understands how information will be handled before they share anything.</p><p>I understand that I may be trusted with private, sensitive, or proprietary information. I do not share what is discussed or learned through working together outside of the people who have signed the agreement and are participating in the process, except where disclosure is required by law or falls within the specific exceptions outlined in the agreement.</p></div></details>
-    </div>
-  </div>
-</section>
-
-<section class="band-fig">
-  <div class="wrap">
-    <blockquote class="quote"><p class="line">&ldquo;Tell me, what is it you plan to do with your one wild and precious life?&rdquo;<span class="rule"></span></p><cite class="cite">Mary Oliver, &ldquo;The Summer Day,&rdquo; <em>House of Light</em>, 1990</cite></blockquote>
-  </div>
-</section>
+<script>var p=new URLSearchParams(location.search).get("situation");if(p){var r=document.querySelector('input[name=situation][value="'+p+'"]');if(r)r.checked=true;}</script>
 
 </main>
 <footer>

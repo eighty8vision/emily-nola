@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Emily Nola | Questions</title>
+<title>Emily Nola | Your situation</title>
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2212%22%20fill%3D%22%232B3033%22/%3E%3Ccircle%20cx%3D%2225%22%20cy%3D%2232%22%20r%3D%2215%22%20fill%3D%22%23E2DFD7%22/%3E%3Ccircle%20cx%3D%2239%22%20cy%3D%2232%22%20r%3D%2215%22%20fill%3D%22%23B8795C%22/%3E%3Cpath%20d%3D%22M32%2018.7a15%2015%200%200%201%200%2026.6a15%2015%200%200%201%200-26.6z%22%20fill%3D%22%23F1F0EC%22/%3E%3Ctext%20x%3D%2232%22%20y%3D%2230.6%22%20text-anchor%3D%22middle%22%20font-family%3D%22Georgia%2C%20%27Times%20New%20Roman%27%2C%20serif%22%20font-size%3D%2210%22%20font-style%3D%22italic%22%20fill%3D%22%2316191B%22%3Ee%3C/text%3E%3Ctext%20x%3D%2232%22%20y%3D%2239.6%22%20text-anchor%3D%22middle%22%20font-family%3D%22Georgia%2C%20%27Times%20New%20Roman%27%2C%20serif%22%20font-size%3D%2210%22%20font-style%3D%22italic%22%20fill%3D%22%2316191B%22%3En%3C/text%3E%3C/svg%3E">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<meta name="description" content="Frequently asked questions about mediation with Emily Nola.">
+<meta name="description" content="Mediation for personal relationships, organizations and stalled negotiations.">
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300;1,6..72,400&family=Hanken+Grotesk:wght@400;500;600&display=swap');
 
@@ -178,10 +178,6 @@ section { padding: 110px 0; }
 .faq summary::after { content: "+"; position: absolute; right: 6px; top: 22px; font-family: var(--sans); font-size: 26px; color: var(--clay-deep); transition: transform .2s; }
 .faq details[open] summary::after { transform: rotate(45deg); }
 .faq .a { padding: 0 0 28px; }
-.faq .a p { margin: 0 0 18px; }
-.faq .a p:last-child { margin-bottom: 0; }
-.faq .a h4 { font-family: var(--sans); font-size: 17px; font-weight: 600; margin: 32px 0 12px; }
-.faq .a h4:first-child { margin-top: 0; }
 .faq .a p { margin: 0 0 14px; }
 .faq-group { margin-top: 70px; }
 .faq-group:first-child { margin-top: 0; }
@@ -232,17 +228,79 @@ footer a:hover { color: var(--on-fig); }
 .contrib li { padding: 10px 0 10px 20px; position: relative; border-top: 1px solid rgba(30,32,34,0.14); }
 .contrib li::before { content: ""; position: absolute; left: 0; top: 22px; width: 8px; height: 1px; background: var(--clay); }
 
-.quote { max-width: none; margin: 0 auto; text-align: center; }
-.quote .line { max-width: 100%; font-family: var(--serif); font-size: clamp(15px, 2.15vw, 34px); white-space: nowrap; overflow-wrap: break-word; line-height: 1.28; font-weight: 300; font-style: italic; margin: 0; }
-.quote .cite { display: block; font-family: var(--sans); font-size: 13px; line-height: 1.6; font-style: normal; margin-top: 26px; opacity: .7; }
-.quote .rule { display: block; width: 40px; height: 1px; background: var(--clay); margin: 30px auto 0; }
+.stakes { list-style: none; padding: 0; margin: 0; max-width: none; }
+@media (min-width: 861px) { .stakes li { white-space: nowrap; } }
+.stakes li { font-family: var(--serif); font-size: clamp(16px, 1.72vw, 20px); line-height: 1.45; font-weight: 300; padding: 16px 0 16px 26px; border-top: 1px solid rgba(30,32,34,0.16); position: relative; }
+.stakes li:last-child { border-bottom: 1px solid rgba(30,32,34,0.16); }
+.stakes li::before { content: ""; position: absolute; left: 0; top: 29px; width: 12px; height: 1px; background: var(--clay); }
+
+.wide-sec { padding: 0 0 86px; }
+.wide-sec + .wide-sec { border-top: 1px solid rgba(30,32,34,.14); padding-top: 76px; }
+.wide-sec h2 { margin-bottom: 26px; }
+.copy { max-width: 46em; }
+.copy p { max-width: none; }
+.cols { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 56px; align-items: start; margin-top: 40px; }
+.cols ul.items { list-style: none; padding: 0; margin: 0; columns: 2; column-gap: 28px; }
+.cols ul.items li { padding: 9px 0; border-bottom: 1px solid rgba(30,32,34,.14); font-size: 16px; break-inside: avoid; }
+.boxes { display: grid; gap: 18px; }
+.signs { background: var(--sand); padding: 24px 26px; margin: 0; max-width: none; }
+.signs p { margin: 0 0 8px; font-weight: 500; max-width: none; }
+.signs ul { list-style: none; padding: 0; margin: 0; columns: 1; }
+.signs li { border-bottom: 0; padding: 4px 0 4px 18px; position: relative; }
+.signs li::before { content:""; position:absolute; left:0; top:15px; width:7px; height:1px; background:var(--fig); }
+.wide-sec .btn { margin-top: 36px; }
+@media (max-width: 860px) { .cols { grid-template-columns: 1fr; gap: 30px; } .cols ul.items { columns: 1; } }
+
+.slim-grid { display: grid; grid-template-columns: 150px minmax(0,1fr); gap: 56px; align-items: start; }
+.slim { position: sticky; top: 110px; }
+.slim a { display:block; font-family: var(--sans); font-size: 14px; line-height:1.35; text-decoration:none; color:#7A6A6C; padding: 11px 0; border-top: 1px solid rgba(30,32,34,.16); }
+.slim a:last-child { border-bottom: 1px solid rgba(30,32,34,.16); }
+.slim a:hover { color: var(--fig); }
+@media (max-width: 860px) { .slim-grid { grid-template-columns: 1fr; gap: 28px; } .slim { position: static; } }
+
+ul.items { list-style: none; padding: 0; margin: 0; columns: 2; column-gap: 34px; max-width: 46em; }
+ul.items li { padding: 9px 0; border-bottom: 1px solid rgba(30,32,34,.14); font-size: 16px; break-inside: avoid; }
+@media (max-width: 760px) { ul.items { columns: 1; } }
+
+.wide-sec h2 { position: sticky; top: 76px; z-index: 5; background: var(--plaster); padding: 18px 0 16px; margin-bottom: 14px; }
+.wide-sec { padding-bottom: 96px; }
+
+.slim { top: 150px; }
+@media (max-width: 860px) { .wide-sec h2 { top: 76px; padding: 14px 0 12px; } }
 
 .mailto { display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; border: 1px solid rgba(239,231,220,.35); border-radius: 50%; color: var(--on-fig-soft); margin-top: 22px; transition: all .2s; }
 .mailto svg { width: 19px; height: 19px; }
 .mailto:hover { color: var(--darkfig); background: var(--clay); border-color: var(--clay); }
 
-@media (max-width: 900px) { .quote .line { white-space: normal !important; font-size: 20px !important; } }
+.head-grid { display: grid; grid-template-columns: minmax(0,1fr) 260px; gap: 48px; align-items: center; }
+.gap-head { font-size: clamp(26px, 3.1vw, 42px); line-height: 1.14; max-width: 15em; }
 
+
+
+.eyebrow-label { font-family: var(--sans); font-weight: 500; font-size: 14px; letter-spacing: .13em; text-transform: uppercase; color: var(--clay); text-align: center; margin: 0 0 16px; max-width: none; }
+.gap-head { font-size: clamp(22px, 3.4vw, 46px) !important; font-weight: 200; line-height: 1.14; max-width: none !important; text-align: center; }
+.gap-head .one, .gap-head .two { display: block; text-align: center; }
+.gap-head .two { font-style: italic; color: var(--fig); }
+.gap-art { display: block; width: 190px; height: 88px; margin: 28px auto 0; }
+@media (max-width: 860px) { .gap-head { font-size: 27px !important; } .gap-art { width: 160px; height: 74px; } }
+
+
+.dark-hero { background: #2B3033; margin-bottom: 70px; padding: 84px 0 70px; }
+.dark-hero .gap-head, .dark-hero .gap-head .two { color: #F1F0EC; }
+.dark-hero .eyebrow-label { color: #B8795C; }
+.dark-hero .gap-art circle:first-of-type { fill: #E2DFD7; }
+.dark-hero .gap-art circle { opacity: 1 !important; }
+.dark-hero .gap-art circle:last-of-type { fill: #B8795C; }
+.dark-hero .gap-art path { fill: #2B3033; }
+.dark-hero .gap-art line { stroke: #F1F0EC; stroke-opacity: .4; }
+
+.posgrid { margin: 34px 0 30px; border-top: 1px solid rgba(30,32,34,.18); max-width: 46em; }
+.pg-row { display: grid; grid-template-columns: 170px minmax(0,1fr); gap: 26px; padding: 16px 0; border-bottom: 1px solid rgba(30,32,34,.14); }
+.pg-k { font-family: var(--sans); font-weight: 500; font-size: 12px; letter-spacing: .13em; text-transform: uppercase; color: var(--clay); padding-top: 3px; }
+.pg-v p { margin: 0 0 8px; max-width: none; font-size: 15.5px; line-height: 1.55; }
+.pg-v p:last-child { margin-bottom: 0; }
+.pg-v b { font-weight: 600; }
+@media (max-width: 760px) { .pg-row { grid-template-columns: 1fr; gap: 8px; } }
 @media (max-width: 700px) { .mark { display: block; line-height: 1.25; } .mark span { display: block; margin-left: 0; } }
 </style>
 </head>
@@ -251,39 +309,33 @@ footer a:hover { color: var(--on-fig); }
   <div class="wrap">
     <a class="mark" href="index.html">Emily Nola<span>Conflict + Communication Advisor</span></a>
     <button class="toggle" aria-expanded="false" aria-controls="links">Menu</button>
-    <nav class="links" id="links"><a href="index.html">Home</a><a href="situation.html">Your situation</a><a href="approach.html">Approach</a><a href="about.html">About</a><a href="faq.html" aria-current="page">FAQ</a><a class="btn" href="apply.html">Apply</a></nav>
+    <nav class="links" id="links"><a href="index.html">Home</a><a href="situation.html" aria-current="page">Your situation</a><a href="approach.html">Approach</a><a href="about.html">About</a><a href="faq.html">FAQ</a><a class="btn" href="apply.html">Apply</a></nav>
   </div>
 </header>
 <main>
-<section class="page-head">
+<section class="page-head dark-hero">
   <div class="wrap">
-    <h1>Questions</h1>
+    <p class="eyebrow-label">Your situation</p>
+    <h1 class="gap-head"><span class="one">Close the gap between where you are today</span><span class="two">and where you want to be.</span></h1>
+    <svg class="gap-art" viewBox="0 0 260 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <circle cx="96" cy="60" r="46" fill="#E2DFD7" opacity=".55"/>
+      <circle cx="164" cy="60" r="46" fill="#B8795C" opacity=".4"/>
+      <path d="M130 17.5a46 46 0 0 1 0 85a46 46 0 0 1 0-85z" fill="#F1F0EC"/>
+      <line x1="0" y1="60" x2="46" y2="60" stroke="#2B3033" stroke-opacity=".35"/>
+      <line x1="214" y1="60" x2="260" y2="60" stroke="#2B3033" stroke-opacity=".35"/>
+    </svg>
   </div>
-</section>
-
-<section style="padding-top:0;">
-  <div class="wrap">
-    <div class="faq">
-<details><summary>What is a conflict + communication advisor?</summary><div class="a"><p>It is the plainest description of what I do.</p><p>A conflict + communication advisor helps you understand what is happening in a difficult situation, particularly when communication, relationships, or competing perspectives are making it challenging to move forward.</p><p>Understanding the people involved, the dynamics between them, and the process or structure they are operating within provides context for where to start and how to approach the issues.</p><p>In order to move situations forward as effectively and efficiently as possible, I identify the gap between where things are now and where the people involved want to end up, as well as the source and contributors to the friction.</p><p>Perspectives that may not be getting through are translated, with guidance, strategy, and recommendations for how to reach your desired outcome.</p><p>I stay objective while considering the interests and goals of everyone involved.</p><p>My goal is to leave every client feeling clearer, lighter, and more empowered than they were before.</p></div></details>
-<details id="who-applies"><summary>Who needs to apply?</summary><div class="a"><h4>Relationships</h4><p>Anyone involved can initiate the process by completing an application. Before I determine fit, fees, and terms, I require anyone else I will be working with to complete their own application.</p><p>If you are an individual navigating a difficult situation and the other parties are uninterested or unable to participate, it is possible for us to work together. Please apply.</p><h4>Workplace</h4><p>The organization completes the application and can do so without notifying employees. I use the information provided by the organization's representative to determine fit, fees, and terms.</p><p>If you are an employee looking for guidance outside of your organization, it is possible for us to work together. Please apply.</p><h4>Negotiations</h4><p>Anyone involved can initiate the process by completing an application. Before I determine fit, fees, and terms, I require anyone else I will be working with to complete their own application.</p><p>If you are an individual navigating a difficult situation and the other parties are uninterested or unable to participate, it is possible for us to work together. Please apply.</p><p>When an attorney, financial advisor, or broker is already engaged, they own legal and financial terms. My focus stays on the dynamics.</p></div></details>
-<details><summary>Are you an attorney?</summary><div class="a"><p>No, I do not give legal advice or negotiate directly on your behalf. Legal and financial terms stay with your attorneys and advisors, and nothing I do replaces independent legal review before you sign anything.</p><p>If there is a relevant legal matter, I will read and understand the terms as context.</p></div></details>
-<details><summary>How is this different from therapy?</summary><div class="a"><p>Therapy works through a clinical lens, often focused on mental health, and is usually structured over a period of time with ongoing sessions.</p><p>I do not use a clinical lens to help individuals or groups move through conflict, communication breakdowns, or stuck dynamics.</p><p>My role is to come into a situation, help get things moving again, and then leave. I do not work with clients on an ongoing basis.</p></div></details>
-<details><summary>Does everyone involved need to agree to participate?</summary><div class="a"><p>Everyone who participates signs the agreement. Participation is voluntary, and willingness from each person I work with is required.</p><p>However, I will work with one individual, or one half of a dynamic, to provide guidance, strategy, and perspective.</p></div></details>
-<details><summary>Can just one person work with you?</summary><div class="a"><p>Yes. I maintain objectivity to provide guidance and perspective to an individual based on their reporting of a situation. The goal is still moving forward in a way that is best for everyone involved.</p></div></details>
-<details><summary>Do you guarantee a resolution?</summary><div class="a"><p>No one honestly can. I guarantee a skilled, objective process and my full attention.</p></div></details>
-<details><summary>Where are you located?</summary><div class="a"><p>I'm based in Minneapolis, MN. I offer in-person, virtual, and hybrid sessions, with virtual often being the preferred option.</p><p>For personal relationships, a neutral third space is used when meeting in person.</p><p>For organizational work, in-person sessions are preferably held at your existing workplace or office.</p></div></details>
-<details><summary>What does it cost?</summary><div class="a"><p>Fees depend on the situation, the number of people involved, and the scope of the work. After reviewing your application, I share fees and terms in writing.</p><p>However, I think about cost beyond dollars. Time, money, energy, and health are all resources, and I encourage my clients to consider the cost of each. I also consider what may be lost or missed by not moving forward, and what those same resources could be put toward instead.</p></div></details>
-<details id="privacy"><summary>Is what I share kept private?</summary><div class="a"><p>Yes. The privacy and confidentiality terms are set out in the agreement everyone signs before we start, so each person understands how information will be handled before they share anything.</p><p>I understand that I may be trusted with private, sensitive, or proprietary information. I do not share what is discussed or learned through working together outside of the people who have signed the agreement and are participating in the process, except where disclosure is required by law or falls within the specific exceptions outlined in the agreement.</p></div></details>
-    </div>
-  </div>
-</section>
-
-<section class="band-fig">
-  <div class="wrap">
-    <blockquote class="quote"><p class="line">&ldquo;Tell me, what is it you plan to do with your one wild and precious life?&rdquo;<span class="rule"></span></p><cite class="cite">Mary Oliver, &ldquo;The Summer Day,&rdquo; <em>House of Light</em>, 1990</cite></blockquote>
-  </div>
-</section>
-
+</section><div class="wrap slim-grid"><nav class="slim"><a href="#personal">Relationships</a><a href="#organization">Workplace</a><a href="#negotiation">Negotiations</a></nav><div><section class="wide-sec" id="personal"><h2>Relationships</h2><div class="copy"><p>Something has come between you and the people closest to you. The conversation keeps ending in the same place. Your history makes it hard to stay on track, and you are all too close to what is creating the conflict or tension to see it objectively. The current dynamic is unsustainable and causing more damage than anyone involved wants.</p>
+        <p>I clarify and define options. Introduce perspective and strategies. Provide objective recommendations and suggestions when it is appropriate, and facilitate communication so it stays productive and in alignment with your stated goals.</p></div><div style="margin-top:34px;"><ul class="items">
+          <li>Partners + spouses</li>
+          <li>Parents + adult children</li>
+          <li>Siblings + extended family</li>
+          <li>In-laws</li>
+          <li>Dynamics related to the loss of a loved one</li>
+          <li>Neighbors</li>
+          <li>Business partners</li>
+          <li>Friends</li>
+        </ul></div><div style="margin-top:34px;max-width:46em;"><div class="posgrid"><div class="pg-row"><span class="pg-k">I work with</span><div class="pg-v"><p><b>All parties.</b> Everyone involved applies and signs.</p><p><b>Not all parties.</b> One person, or a few, when the others are uninterested or unable.</p></div></div><div class="pg-row"><span class="pg-k">My role</span><div class="pg-v"><p><b>All parties involved:</b> neutral between everyone involved.</p><p><b>Not all parties involved:</b> advisor with objectivity and solution-oriented guidance.</p></div></div><div class="pg-row"><span class="pg-k">Not my lane</span><div class="pg-v"><p>Clinical care and diagnosis. Legal and financial advice.</p></div></div><div class="pg-row"><span class="pg-k">The objective</span><div class="pg-v"><p>A path forward, together or apart, reached with less damage. New perspective, improved communication, and strategies you can carry into future conversations.</p></div></div></div><a class="btn" href="apply.html?situation=personal">Apply</a></section><section class="wide-sec" id="organization"><h2>Workplace</h2><div class="copy"><p>Two or more people, cross-functional teams, or a leader and their team are experiencing challenges that are costing the business.</p><p>Interpersonal dynamics and/or structural misalignments are causing distractions, escalations, and risk to the business. Morale is taking a hit, decisions are delayed, and retention of good people is becoming a concern.</p><p>I bring an experienced operational leadership and HR lens as an external partner to the business.</p><p>Collaborating with leadership, I introduce a fresh and strategic perspective with the goal of diagnosing the source of the issue, recommending solutions, and facilitating the conversations that let everyone move forward and get back to business.</p><p>With a people-centered focus, my goal is to find the intersection of what is best for the business, its customers, and its team members. Helping to separate facts from feelings so that emotionally charged situations can gain clarity, and energy toward moving forward can be spent strategically and effectively.</p></div><div class="posgrid"><div class="pg-row"><span class="pg-k">I work with</span><div class="pg-v"><p><b>An organization.</b> Owner, board, leadership, internal HR, fractional HR, COO, CFO, and others in a decision-making role.</p><p><b>An employee.</b> For their own guidance, outside the organization.</p></div></div><div class="pg-row"><span class="pg-k">My role</span><div class="pg-v"><p><b>An organization:</b> partner and collaborator to the business, objective perspective based on the desired outcome.</p><p><b>An employee:</b> advisor to employee with objectivity and solution-oriented guidance.</p></div></div><div class="pg-row"><span class="pg-k">Not my lane</span><div class="pg-v"><p>Employment law.</p></div></div><div class="pg-row"><span class="pg-k">The objective</span><div class="pg-v"><p>Leadership has a clear understanding of the current situation, risks, and recommendations to move forward. People work together more effectively or move forward separately, organizational structure is modified as needed, and the expense of time, money, energy, and lost opportunity stops.</p></div></div></div><a class="btn" href="apply.html?situation=organization">Apply</a></section><section class="wide-sec" id="negotiation"><h2>Negotiations</h2><div class="copy"><p>A divorce, a sale, an agreement, a pending business deal. Negotiations have stalled even though options and possibilities remain on the table.</p><p>My focus is on the interpersonal dynamics that fall outside the scope of an attorney's or advisor's role and responsibilities.</p><p>I partner with everyone involved to identify what is causing the negotiation to stall and to help shift their footing enough to get the matter moving again.</p><p>I do not take a position on the outcome. However, I will learn the situation well enough to understand the necessary context and ensure my involvement is additive rather than another barrier to progress.</p></div><div class="posgrid"><div class="pg-row"><span class="pg-k">I work with</span><div class="pg-v"><p><b>All parties.</b> Everyone involved applies and signs.</p><p><b>Not all parties.</b> One person, or a few, when the others are uninterested or unable.</p></div></div><div class="pg-row"><span class="pg-k">My role</span><div class="pg-v"><p><b>All parties involved:</b> neutral between everyone involved.</p><p><b>Not all parties involved:</b> advisor with objectivity and solution-oriented guidance.</p></div></div><div class="pg-row"><span class="pg-k">Not my lane</span><div class="pg-v"><p>Legal and financial advice.</p></div></div><div class="pg-row"><span class="pg-k">The objective</span><div class="pg-v"><p>Negotiations move again and everyone is better equipped to navigate them with more clarity and tools moving forward.</p></div></div></div><a class="btn" href="apply.html?situation=negotiation">Apply</a></section></div></div>
 </main>
 <footer>
   <div class="wrap">
